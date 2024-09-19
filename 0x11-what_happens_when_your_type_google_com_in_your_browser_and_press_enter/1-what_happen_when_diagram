@@ -1,0 +1,55 @@
+https://github.com/Pi-ink/0x11.-What-happens-when-you-type-google.com-in-your-browser-and-press-Enter/blob/main/Diagram
+
++--------------------+
+|   User Action      |
+|  Type URL and Hit  |
+|      Enter         |
++--------------------+
+          |
+          v
++--------------------+
+|    URL Parsing     |
++--------------------+
+          |
+          v
++--------------------+
+|  DNS Resolution    |
+|   (Find IP Addr)   |
++--------------------+
+          |
+          v
++--------------------+
+|  Establish TCP     |
+|  Connection & TLS  |
+|      Handshake     |
++--------------------+
+          |
+          v
++--------------------+
+|   Send HTTP GET    |
+|   Request to Server |
++--------------------+
+          |
+          v
++--------------------+
+|  Server Response   |
+|   (HTML Content)   |
++--------------------+
+          |
+          v
++--------------------+
+|  Render Page       |
+|  (HTML, CSS, JS)   |
++--------------------+
+          |
+          v
++--------------------+
+|  Load Additional   |
+|     Resources      |
++--------------------+
+          |
+          v
++--------------------+
+|  Display Page      |
+|   to User          |
++--------------------+
